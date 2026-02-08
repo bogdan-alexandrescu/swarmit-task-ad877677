@@ -2,6 +2,10 @@
 
 A clean, modern single-page landing website built with HTML, CSS, and JavaScript.
 
+## 🚀 Live Demo
+
+**GitHub Pages URL:** [Coming Soon - Deploy with instructions below]
+
 ## Features
 
 - **Responsive Design**: Mobile-first approach that works on all devices
@@ -19,28 +23,48 @@ A clean, modern single-page landing website built with HTML, CSS, and JavaScript
 
 ## Quick Start
 
-1. Install dependencies:
+### Local Development
 ```bash
+# Install dependencies
 npm install
-```
 
-2. Start the development server:
-```bash
+# Start the development server
 npm start
 ```
 
-3. Open your browser and navigate to the displayed localhost URL
+Open your browser and navigate to the displayed localhost URL (usually http://localhost:3000)
 
-## Deployment
+## 📦 GitHub Pages Deployment Instructions
 
-This is a static site and can be deployed to:
-- Netlify
-- Vercel
-- GitHub Pages
-- AWS S3
-- Any static hosting service
+1. **Create GitHub Repository:**
+   ```bash
+   # Create a new repository on GitHub (manually via web interface)
+   # Suggested name: landing-page-[timestamp]
+   ```
 
-Simply upload the `index.html` file to your hosting service.
+2. **Push to GitHub:**
+   ```bash
+   git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+   git branch -M main
+   git push -u origin main
+   ```
+
+3. **Enable GitHub Pages:**
+   - Go to repository Settings → Pages
+   - Select "Deploy from a branch"
+   - Choose "main" branch and "/ (root)" folder
+   - Click "Save"
+
+4. **Access Your Site:**
+   - Your site will be available at: `https://YOUR_USERNAME.github.io/YOUR_REPOSITORY/`
+   - It may take a few minutes to deploy initially
+
+## Alternative Deployment Options
+
+- **Netlify**: Drag & drop the files or connect your GitHub repo
+- **Vercel**: Import your GitHub repository
+- **AWS S3**: Upload files to an S3 bucket with static website hosting
+- **Firebase Hosting**: Use `firebase deploy` after setup
 
 ## Technologies Used
 
